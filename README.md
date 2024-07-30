@@ -10,3 +10,5 @@ for specifications visit
 # [https://github.com/nida-afk/mail/](https://github.com/nida-afk/mail/)
 ## [demo video](https://youtu.be/rrzkCq2uOWU)
 
+# Deployed on 
+# [https://mail-9yqo.onrender.com](https://mail-9yqo.onrender.com)
