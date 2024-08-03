@@ -163,6 +163,10 @@ def register(request):
             return render(request, "mail/register.html", {
                 "message": "Passwords must match."
             })
+        if len(password) < 4 or len(password) > 8 :
+            return render(request, "mail/register.html", {
+                "message": "Password must be between 4 and 8 characters long."
+            })
 
         # Attempt to create new user
         try:
